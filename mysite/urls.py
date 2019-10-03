@@ -6,5 +6,6 @@ from pokemon import views as pokemonview
 urlpatterns = [
     path('', blogview.index),
     path('pokemon', pokemonview.index),
+    path('ab/<str:fn>', pokemonview.atimesb),
     path('admin/', admin.site.urls),
 ]
