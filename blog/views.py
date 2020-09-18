@@ -1,5 +1,8 @@
 from django.shortcuts import render
 
+from .models import Student
+
 # Create your views here.
 def index(req):
-    return render(req, 'blog/index.html')
+    students = Student.objects.all()
+    return render(req, 'blog/index.html', { 'students': students })
