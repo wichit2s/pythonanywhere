@@ -1,389 +1,389 @@
 [
-{
-                "model": "blog.Student",
-                "pk": 62114440011,
-                "fields": {
-                    "name": "กนกพร ถึงเสียบญวน",
-                    "email": "kanokporn.th.62@ubu.ac.th",
-                    "nick": "บัวบาน"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440024,
-                "fields": {
-                    "name": "กรวิชญ์ จันเทศ",
-                    "email": "konrawit.ch.62@ubu.ac.th",
-                    "nick": "แมน"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440039,
-                "fields": {
-                    "name": "กิตติพล เลกระโทก",
-                    "email": "",
-                    "nick": "ต้า"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440046,
-                "fields": {
-                    "name": "แก้วกัมพล สื่อศิริธำรงค์",
-                    "email": "",
-                    "nick": "มาล์ยมิ้น"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440055,
-                "fields": {
-                    "name": "จักรพรรดิ เนตตาสาร",
-                    "email": "jakkaphat.ne.62@ubu.ac.th",
-                    "nick": "หนึ่ง"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440084,
-                "fields": {
-                    "name": "ณัฐพล กุดสมบัติ",
-                    "email": "Nuttapon.ku.62@ubu.ac.th",
-                    "nick": "เบล"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440091,
-                "fields": {
-                    "name": "ตรีเทพ เฉลียวธรรม",
-                    "email": "trithep.ch.62@ubu.ac.th",
-                    "nick": "เก็ต"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440101,
-                "fields": {
-                    "name": "ทักษพร เรืองคำ",
-                    "email": "thaksaporn.ru.62@ubu.ac.th",
-                    "nick": "อิ๋ว"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440112,
-                "fields": {
-                    "name": "ธนพรรณ คำลอย",
-                    "email": "",
-                    "nick": "ปอนด์"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440125,
-                "fields": {
-                    "name": "ธนสร เครือจันทร์",
-                    "email": "thanasorn.kr.62@ubu.ac.th",
-                    "nick": "แป้ง"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440130,
-                "fields": {
-                    "name": "ธนัญญา พรศักดิ์",
-                    "email": "",
-                    "nick": "จุ๋ม"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440156,
-                "fields": {
-                    "name": "ธเนษฐ ศิริบูรณ์",
-                    "email": "thanet.si.62@ubu.ac.th",
-                    "nick": "โจโจ้"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440167,
-                "fields": {
-                    "name": "ธวัชชัย รัตโน",
-                    "email": "thawatchai.ra.62@ubu.ac.th",
-                    "nick": "เเฟ้ม"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440185,
-                "fields": {
-                    "name": "นิภาพรรณ จันทาดี",
-                    "email": "",
-                    "nick": "มะเเนง"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440192,
-                "fields": {
-                    "name": "บัญชา เพ็งแจ่ม",
-                    "email": "bancha.pa.62@ubu.ac.th",
-                    "nick": "เม่น"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440204,
-                "fields": {
-                    "name": "ประณิธิภรณ์  สุริยะศรี",
-                    "email": "",
-                    "nick": "พลอย"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440215,
-                "fields": {
-                    "name": "ปราชญอนันต์ ศรีสันติแสง",
-                    "email": "",
-                    "nick": "เหนือ"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440228,
-                "fields": {
-                    "name": "ปราโมทย์   แก้วดอนโมง",
-                    "email": "pramote.ka.62@ubu.ac.th",
-                    "nick": "ต้อแต๊"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440233,
-                "fields": {
-                    "name": "พรนภา  ประสิทธิ์",
-                    "email": "phornnapa.pr.62@ubu.ac.th",
-                    "nick": "พร"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440240,
-                "fields": {
-                    "name": "พลศักดิ์ ไชยสิน",
-                    "email": "",
-                    "nick": "พี"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440259,
-                "fields": {
-                    "name": "พัชรินทร์  ไขสีดา",
-                    "email": "phatcharin.kai.62@ubu.ac.th",
-                    "nick": "ขนุนขนิ๋นน"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440273,
-                "fields": {
-                    "name": "ลลิดา อัมภรัตน์",
-                    "email": "lalida.am.62@ubu.ac.th",
-                    "nick": "อุ้ม"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440288,
-                "fields": {
-                    "name": "วรนาถ บุญเอนก",
-                    "email": "woranat.bo.62@ubu.ac.th",
-                    "nick": "ออดี้"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440323,
-                "fields": {
-                    "name": "ศราวุธ อ่อนศรี",
-                    "email": "sarawut.on.62@ubu.ac.th",
-                    "nick": "นนท์"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440338,
-                "fields": {
-                    "name": "ศศิกานต์  อินวิถี",
-                    "email": "sasikan.in.62@ubu.ac.th",
-                    "nick": "ปุ๊กกี้"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440345,
-                "fields": {
-                    "name": "ศศิศ วิรัตน์จินดา",
-                    "email": "sasit.wi.62@ubu.ac.th",
-                    "nick": "อัยย์"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440354,
-                "fields": {
-                    "name": "ศิริอร บุตรพรม",
-                    "email": "sirion.bu.62@ubu.ac.th",
-                    "nick": "นุ่น"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440365,
-                "fields": {
-                    "name": "ศุภชัย พรมจันทร์",
-                    "email": "",
-                    "nick": "กัฟ"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440378,
-                "fields": {
-                    "name": "ศุภฌาน์ บุดดาแพน",
-                    "email": "suphacha.bu.62@ubu.ac.th",
-                    "nick": "ไอดิน"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440383,
-                "fields": {
-                    "name": "ศุภนิมิต แสงเมือง",
-                    "email": "supanimit.sa.62@ubu.ac.th",
-                    "nick": "ช้อป"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440390,
-                "fields": {
-                    "name": "เศรษฐวัฒน์ แสงศรี",
-                    "email": "",
-                    "nick": "เกมส์โอเวอร์"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440406,
-                "fields": {
-                    "name": "สิทธิชา ภะวันตุ",
-                    "email": "sitthicha.ph.62@ubu.ac.th",
-                    "nick": "อาร์ม"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440417,
-                "fields": {
-                    "name": "สิรินญา เบ้าคำ",
-                    "email": "sirinya.ba.62@ubu.ac.th",
-                    "nick": "เนยเทียม"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440420,
-                "fields": {
-                    "name": "สุดเขต สร้อยจิตร",
-                    "email": "sudkhat.so.62@ubu.ac.th",
-                    "nick": "สุดเขตสเลตเป็ด"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440442,
-                "fields": {
-                    "name": "สุรเกียรติ ทับละคร",
-                    "email": "mr.surakiat.ta.62@ubu.ac.th",
-                    "nick": "เจเจ"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440451,
-                "fields": {
-                    "name": "สุรศักดิ์  นามแสง",
-                    "email": "surasak.na.62@ubu.ac.th",
-                    "nick": "เจมส์"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440462,
-                "fields": {
-                    "name": "เสถียร ภาษาดี",
-                    "email": "sathain.ph.62@ubu.ac.th",
-                    "nick": "กอล์ฟฟี้"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440475,
-                "fields": {
-                    "name": "หทัยรัตน์ พูลทวี",
-                    "email": "hathairat.po.62@ubu.ac.th",
-                    "nick": "บีมส์"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440497,
-                "fields": {
-                    "name": "อลงกรณ์ ไชยชนะ",
-                    "email": "alongkorn.ch.62@ubu.ac.th",
-                    "nick": "โทน"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440505,
-                "fields": {
-                    "name": "อะนุชิต อาจเดช",
-                    "email": "anuchit.ar.62@ubu.ac.th",
-                    "nick": "ตะวัน"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440516,
-                "fields": {
-                    "name": "ปิยะดา พรหมขจร",
-                    "email": "piyada.ph.62@ubu.ac.th",
-                    "nick": "เอมมี่"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440529,
-                "fields": {
-                    "name": "พงศธร เวียงแก",
-                    "email": "pongsatorn.wi.62@ubu.ac.th",
-                    "nick": "ภีม"
-                }
-            },
-{
-                "model": "blog.Student",
-                "pk": 62114440541,
-                "fields": {
-                    "name": "วิชุดา พรมโสดา",
-                    "email": "wichuda.ph.62@ubu.ac.th",
-                    "nick": "ครีม"
-                }
-            }
+  {
+    "model": "blog.Student",
+    "pk": 62114440011,
+    "fields": {
+      "name": "กนกพร ถึงเสียบญวน",
+      "email": "kanokporn.th.62@ubu.ac.th",
+      "nick": "บัวบาน"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440024,
+    "fields": {
+      "name": "กรวิชญ์ จันเทศ",
+      "email": "konrawit.ch.62@ubu.ac.th",
+      "nick": "แมน"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440039,
+    "fields": {
+      "name": "กิตติพล เลกระโทก",
+      "email": "",
+      "nick": "ต้า"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440046,
+    "fields": {
+      "name": "แก้วกัมพล สื่อศิริธำรงค์",
+      "email": "",
+      "nick": "มาล์ยมิ้น"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440055,
+    "fields": {
+      "name": "จักรพรรดิ เนตตาสาร",
+      "email": "jakkaphat.ne.62@ubu.ac.th",
+      "nick": "หนึ่ง"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440084,
+    "fields": {
+      "name": "ณัฐพล กุดสมบัติ",
+      "email": "Nuttapon.ku.62@ubu.ac.th",
+      "nick": "เบล"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440091,
+    "fields": {
+      "name": "ตรีเทพ เฉลียวธรรม",
+      "email": "trithep.ch.62@ubu.ac.th",
+      "nick": "เก็ต"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440101,
+    "fields": {
+      "name": "ทักษพร เรืองคำ",
+      "email": "thaksaporn.ru.62@ubu.ac.th",
+      "nick": "อิ๋ว"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440112,
+    "fields": {
+      "name": "ธนพรรณ คำลอย",
+      "email": "",
+      "nick": "ปอนด์"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440125,
+    "fields": {
+      "name": "ธนสร เครือจันทร์",
+      "email": "thanasorn.kr.62@ubu.ac.th",
+      "nick": "แป้ง"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440130,
+    "fields": {
+      "name": "ธนัญญา พรศักดิ์",
+      "email": "",
+      "nick": "จุ๋ม"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440156,
+    "fields": {
+      "name": "ธเนษฐ ศิริบูรณ์",
+      "email": "thanet.si.62@ubu.ac.th",
+      "nick": "โจโจ้"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440167,
+    "fields": {
+      "name": "ธวัชชัย รัตโน",
+      "email": "thawatchai.ra.62@ubu.ac.th",
+      "nick": "เเฟ้ม"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440185,
+    "fields": {
+      "name": "นิภาพรรณ จันทาดี",
+      "email": "",
+      "nick": "มะเเนง"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440192,
+    "fields": {
+      "name": "บัญชา เพ็งแจ่ม",
+      "email": "bancha.pa.62@ubu.ac.th",
+      "nick": "เม่น"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440204,
+    "fields": {
+      "name": "ประณิธิภรณ์  สุริยะศรี",
+      "email": "",
+      "nick": "พลอย"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440215,
+    "fields": {
+      "name": "ปราชญอนันต์ ศรีสันติแสง",
+      "email": "",
+      "nick": "เหนือ"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440228,
+    "fields": {
+      "name": "ปราโมทย์   แก้วดอนโมง",
+      "email": "pramote.ka.62@ubu.ac.th",
+      "nick": "ต้อแต๊"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440233,
+    "fields": {
+      "name": "พรนภา  ประสิทธิ์",
+      "email": "phornnapa.pr.62@ubu.ac.th",
+      "nick": "พร"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440240,
+    "fields": {
+      "name": "พลศักดิ์ ไชยสิน",
+      "email": "",
+      "nick": "พี"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440259,
+    "fields": {
+      "name": "พัชรินทร์  ไขสีดา",
+      "email": "phatcharin.kai.62@ubu.ac.th",
+      "nick": "ขนุนขนิ๋นน"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440273,
+    "fields": {
+      "name": "ลลิดา อัมภรัตน์",
+      "email": "lalida.am.62@ubu.ac.th",
+      "nick": "อุ้ม"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440288,
+    "fields": {
+      "name": "วรนาถ บุญเอนก",
+      "email": "woranat.bo.62@ubu.ac.th",
+      "nick": "ออดี้"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440323,
+    "fields": {
+      "name": "ศราวุธ อ่อนศรี",
+      "email": "sarawut.on.62@ubu.ac.th",
+      "nick": "นนท์"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440338,
+    "fields": {
+      "name": "ศศิกานต์  อินวิถี",
+      "email": "sasikan.in.62@ubu.ac.th",
+      "nick": "ปุ๊กกี้"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440345,
+    "fields": {
+      "name": "ศศิศ วิรัตน์จินดา",
+      "email": "sasit.wi.62@ubu.ac.th",
+      "nick": "อัยย์"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440354,
+    "fields": {
+      "name": "ศิริอร บุตรพรม",
+      "email": "sirion.bu.62@ubu.ac.th",
+      "nick": "นุ่น"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440365,
+    "fields": {
+      "name": "ศุภชัย พรมจันทร์",
+      "email": "",
+      "nick": "กัฟ"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440378,
+    "fields": {
+      "name": "ศุภฌาน์ บุดดาแพน",
+      "email": "suphacha.bu.62@ubu.ac.th",
+      "nick": "ไอดิน"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440383,
+    "fields": {
+      "name": "ศุภนิมิต แสงเมือง",
+      "email": "supanimit.sa.62@ubu.ac.th",
+      "nick": "ช้อป"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440390,
+    "fields": {
+      "name": "เศรษฐวัฒน์ แสงศรี",
+      "email": "",
+      "nick": "เกมส์โอเวอร์"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440406,
+    "fields": {
+      "name": "สิทธิชา ภะวันตุ",
+      "email": "sitthicha.ph.62@ubu.ac.th",
+      "nick": "อาร์ม"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440417,
+    "fields": {
+      "name": "สิรินญา เบ้าคำ",
+      "email": "sirinya.ba.62@ubu.ac.th",
+      "nick": "เนยเทียม"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440420,
+    "fields": {
+      "name": "สุดเขต สร้อยจิตร",
+      "email": "sudkhat.so.62@ubu.ac.th",
+      "nick": "สุดเขตสเลตเป็ด"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440442,
+    "fields": {
+      "name": "สุรเกียรติ ทับละคร",
+      "email": "mr.surakiat.ta.62@ubu.ac.th",
+      "nick": "เจเจ"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440451,
+    "fields": {
+      "name": "สุรศักดิ์  นามแสง",
+      "email": "surasak.na.62@ubu.ac.th",
+      "nick": "เจมส์"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440462,
+    "fields": {
+      "name": "เสถียร ภาษาดี",
+      "email": "sathain.ph.62@ubu.ac.th",
+      "nick": "กอล์ฟฟี้"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440475,
+    "fields": {
+      "name": "หทัยรัตน์ พูลทวี",
+      "email": "hathairat.po.62@ubu.ac.th",
+      "nick": "บีมส์"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440497,
+    "fields": {
+      "name": "อลงกรณ์ ไชยชนะ",
+      "email": "alongkorn.ch.62@ubu.ac.th",
+      "nick": "โทน"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440505,
+    "fields": {
+      "name": "อะนุชิต อาจเดช",
+      "email": "anuchit.ar.62@ubu.ac.th",
+      "nick": "ตะวัน"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440516,
+    "fields": {
+      "name": "ปิยะดา พรหมขจร",
+      "email": "piyada.ph.62@ubu.ac.th",
+      "nick": "เอมมี่"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440529,
+    "fields": {
+      "name": "พงศธร เวียงแก",
+      "email": "pongsatorn.wi.62@ubu.ac.th",
+      "nick": "ภีม"
+    }
+  },
+  {
+    "model": "blog.Student",
+    "pk": 62114440541,
+    "fields": {
+      "name": "วิชุดา พรมโสดา",
+      "email": "wichuda.ph.62@ubu.ac.th",
+      "nick": "ครีม"
+    }
+  }
 ]
