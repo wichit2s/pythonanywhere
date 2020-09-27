@@ -5,6 +5,9 @@ from blog import views as blogview
 
 urlpatterns = [
     path('', blogview.index),
+    path('course', blogview.course),
+    path('aj', blogview.aj),
+    path('students', blogview.students),
     path('login', blogview.login),
     path('logout', blogview.logout),
     path('sketchy', blogview.sketchy),

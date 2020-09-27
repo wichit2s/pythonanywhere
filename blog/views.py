@@ -8,8 +8,17 @@ from .models import Student
 
 # Create your views here.
 def index(req):
+    return render(req, 'blog/index.html')
+
+def course(req):
+    return render(req, 'blog/course.html')
+
+def aj(req):
+    return render(req, 'blog/aj.html')
+
+def students(req):
     students = Student.objects.all()
-    return render(req, 'blog/index.html', { 'students': students})
+    return render(req, 'blog/students.html', { 'students': students })
 
 def login(req):
     if req.method == 'POST':
