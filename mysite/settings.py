@@ -25,7 +25,7 @@ SECRET_KEY = 'm77_9gg+_$^@r)22auvzqqey@%_ja37iyw9s6z0z+1bs#)rv(4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'wichit2s.pythonanywhere.com', u'127.0.0.1']
+ALLOWED_HOSTS = [u'wichit2s.pythonanywhere.com', u'127.0.0.1', u'localhost']
 
 
 # Application definition
