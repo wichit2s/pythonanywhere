@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 sphinx-intl = "*"
+ipython = "*"
 
 [packages]
 sphinx = "*"
@@ -17,5 +18,5 @@ django = "~=2.1"
 python_version = "3.7.7"
 
 [scripts]
-make = "make html"
-pdf = "sphinx-build -b pdf source build/pdf"
+server = "manage.py runserver"
+shell = "manage.py shell"

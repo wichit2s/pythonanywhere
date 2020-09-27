@@ -20,9 +20,13 @@
           <fieldset>
             <legend>Login</legend>
             <div class="form-group">
+              <input type="hidden" name="next_url" value="{{ next_url }}">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" value="admin@ubu.ac.th">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              
+        {% for msg in messages %}
+              <small id="emailHelp" class="form-text text-muted">{{ messages.message }}</small>
+        {% endfor %}
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Password</label>
@@ -33,6 +37,7 @@
         </form>
       </div>
     </div>
+
   </div>
 
 {% endblock %}

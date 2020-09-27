@@ -14,19 +14,31 @@
         <table class="table table-hover">
           <thead>
             <tr>
+              <!--
               <th scope="col">รหัส</th>
+              -->
               <th scope="col">ชื่อ</th>
+              <!--
               <th scope="col">email</th>
+              -->
               <th scope="col">ชื่อเล่น</th>
+              <th scope="col">pythonanywhere</th>
+              <th scope="col">github</th>
             </tr>
           </thead>
           <tbody>
             {% for student in students %}
             <tr class="table-light">
+              <!--
               <th scope="row">{{ student.sid }}</th>
+              -->
               <td>{{ student.name }}</td>
+              <!--
               <td>{{ student.email }}</td>
+              -->
               <td>{{ student.nick }}</td>
+              <td><a href="https://{{student.pythonanywhere}}.pythonanywhere.com/">{{ student.pythonanywhere }}</a></td>
+              <td><a href="https://github.com/{{student.github}}/pythonanywhere">{{ student.github }}</a></td>
             </tr>
             {% endfor %}
           </tbody>
