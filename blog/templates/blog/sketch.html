@@ -5,8 +5,8 @@
     <title>Bootswatch: Sketchy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.min.css' %}" media="screen">
+    <link rel="stylesheet" href="../4/sketchy/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../_assets/css/custom.min.css">
   </head>
   <body>
     <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
@@ -116,6 +116,17 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#">About</a>
                     </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                        aria-expanded="false">Dropdown</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </div>
+                    </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -146,6 +157,17 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#">About</a>
                     </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                        aria-expanded="false">Dropdown</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </div>
+                    </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -175,6 +197,17 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                        aria-expanded="false">Dropdown</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </div>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -321,7 +354,7 @@
             </div>
 
             <div class="bs-component">
-              <div class="btn-group-vertical" data-toggle="buttons">
+              <div class="btn-group-vertical">
                 <button type="button" class="btn btn-primary">Button</button>
                 <button type="button" class="btn btn-primary">Button</button>
                 <button type="button" class="btn btn-primary">Button</button>
@@ -459,28 +492,80 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="page-header">
-              <h1 id="tables">นักศึกษาในรายวิชาระบบปฏิบัติการลินุกซ์</h1>
+              <h1 id="tables">Tables</h1>
             </div>
 
             <div class="bs-component">
               <table class="table table-hover">
                 <thead>
                   <tr>
-                    <th scope="col">รหัส</th>
-                    <th scope="col">ชื่อ</th>
-                    <th scope="col">email</th>
-                    <th scope="col">ชื่อเล่น</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Column heading</th>
+                    <th scope="col">Column heading</th>
+                    <th scope="col">Column heading</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {% for student in students %}
-                  <tr class="table-light">
-                    <th scope="row">{{ student.sid }}</th>
-                    <td>{{ student.name }}</td>
-                    <td>{{ student.email }}</td>
-                    <td>{{ student.nick }}</td>
+                  <tr class="table-active">
+                    <th scope="row">Active</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
                   </tr>
-                  {% endfor %}
+                  <tr>
+                    <th scope="row">Default</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">Primary</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-secondary">
+                    <th scope="row">Secondary</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-success">
+                    <th scope="row">Success</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-danger">
+                    <th scope="row">Danger</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-warning">
+                    <th scope="row">Warning</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">Info</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-light">
+                    <th scope="row">Light</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="table-dark">
+                    <th scope="row">Dark</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
                 </tbody>
               </table> 
             </div><!-- /example -->
@@ -584,6 +669,11 @@
                         Option two is disabled
                       </label>
                     </div>
+                  </fieldset>
+                  <fieldset class="form-group">
+                    <legend>Sliders</legend>
+                    <label for="customRange1">Example range</label>
+                    <input type="range" class="custom-range" id="customRange1">
                   </fieldset>
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </fieldset>
@@ -1048,7 +1138,7 @@
                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="proress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <div class="progress">
                 <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1399,7 +1489,7 @@
               <button type="button" class="btn btn-secondary" title="Popover Title" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Right</button>
             </div>
             <h2>Tooltips</h2>
-            <div class="bs-component">
+            <div class="bs-component" style="margin-bottom: 3em;">
               <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Left</button>
 
               <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Top</button>
@@ -1407,6 +1497,21 @@
               <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Bottom</button>
 
               <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Right</button>
+            </div>
+            <h2>Toasts</h2>
+            <div class="bs-component">
+              <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <strong class="mr-auto">Bootstrap</strong>
+                  <small>11 mins ago</small>
+                  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="toast-body">
+                  Hello, world! This is a toast message.
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1452,8 +1557,9 @@
     </div>
 
 
-    <script src="{% static 'blog/js/jquery.min.js' %}"></script>
-    <script src="{% static 'blog/js/popper.min.js' %}"></script>
-    <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
+    <script src="../_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../_vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../_assets/js/custom.js"></script>
   </body>
 </html>
