@@ -1,0 +1,138 @@
+[
+{
+  "model": "landmark.category",
+  "pk": 1,
+  "fields": {
+    "name": "วัด"
+  }
+},
+{
+  "model": "landmark.category",
+  "pk": 2,
+  "fields": {
+    "name": "อุทยานและธรรมชาติ"
+  }
+},
+{
+  "model": "landmark.category",
+  "pk": 3,
+  "fields": {
+    "name": "จุดชมวิว"
+  }
+},
+{
+  "model": "landmark.category",
+  "pk": 4,
+  "fields": {
+    "name": "ราชวัง"
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "image": "https://img.wongnai.com/p/1248x0/2018/06/12/78cd784f25c44db29b10b74a619d21af.jpg",
+    "title": "สามพันโบก",
+    "description": "ที่เที่ยวอุบลราชธานีสุดฮิต ที่เพื่อน ๆ ห้ามพลาด สามพันโบก หรือ แกรนด์แคนยอนเมืองไทย “โบก” มาจากภาษาลาวที่แปลว่า \"แอ่ง\" ที่นี่มีหลุมหรือแอ่งของหินที่โดนกัดเซาะสวยงาม แปลกตามากถึงสามพันแอ่ง ก็เลยเป็นที่มาของชื่อ สามพันโบกนั่นเอง แนะนำให้ไปช่วงเช้าจะได้บรรยากาศแสงอาทิตย์สวย ๆ และอากาศกำลังสบาย ไม่ร้อนเ",
+    "rating": 4.4,
+    "reviews": 2020
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "image": "https://img.wongnai.com/p/1248x0/2018/06/12/94e735d0ee39487eb7cbc63e666cb439.jpg",
+    "title": "อุทยานแห่งชาติผาแต้ม",
+    "description": "ผาชะนะได ตั้งอยู่ในเขตอุทยานแห่งชาติผาแต้ม เป็นหน้าผาที่สูงเหนือระดับน้ำทะเลถึง 450 เมตร เป็นที่เที่ยวอุบลราชธานีที่คู่ควร!ใครอยากจะเห็นพระอาทิตย์ขึ้นเป็นคนแรกของประเทศไทยต้องมาปักหมุดที่เที่ยวอุบลราชธานีแห่งนี้ ถ้าได้มาเที่ยวเมืองอุบลฯ แล้วห้ามพลาดที่จะปักหมุดเที่ยวผาแต้มเลยเด้อ",
+    "rating": 4.2,
+    "reviews": 26
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 3,
+  "fields": {
+    "category": 4,
+    "image": "https://cdn.destguides.com/files/store/itinerarystop/3798/background_image/webp_large_202112291737-b184816e0cda4239e07b6c8c84c8ed65.webp",
+    "title": "The Grand Palace",
+    "description": "The Grand Palace is one of the most visited landmarks in Asia and Bangkok, the capital of Thailand. The palace was built in 1782 and served as the home of the Thai King for 150 years. It also housed the Royal Court and the administrative seat of government.  Along with its historical significance, t",
+    "rating": 4.0,
+    "reviews": 1000
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 4,
+  "fields": {
+    "category": 1,
+    "image": "https://cdn.destguides.com/files/store/itinerarystop/3801/background_image/webp_large_202112291737-6cb31e84ff6d0a716085bdf8ca1df848.webp",
+    "title": "Temple of the Emerald Buddha",
+    "description": "Wat Phra Kaew, also known as Wat Phra Si Rattana Satsadaram or the Temple of the Emerald Buddha, was built in 1784. It is the home of the Emerald Buddha which is considered to be one of the most important deities in Thailand.  This historic attraction lures hundreds of visitors every day, and it is",
+    "rating": 4.5,
+    "reviews": 2000
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 5,
+  "fields": {
+    "category": 2,
+    "image": "https://cdn.destguides.com/files/store/itinerarystop/3800/background_image/webp_large_202112291737-891be67c5b4364cf5ff14da6e604c16c.webp",
+    "title": "Erawan National Park",
+    "description": "The Erawan National Park is a large park located in the Kanchanaburi Province. It is one of the most famous natural landmarks in Thailand and is just one of 12 national parks in the country.  This national park is well-known due to its attractions and stunning natural beauty. The park notably featur",
+    "rating": 4.3,
+    "reviews": 1233
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 6,
+  "fields": {
+    "category": 1,
+    "image": "https://cdn.destguides.com/files/store/itinerarystop/3799/background_image/webp_large_202112291737-30f6ee9fe35a7815e77505c482ede057.webp",
+    "title": "Wat Rong Khun",
+    "description": "This landmark is one of the most popular temples in Thailand, and visiting it definitely deserves to be on your Thailand bucket list! Wat Rong Khun, also known as the White Temple, is a Buddhist temple renowned for its incredible architecture.  The temple is located in Chiang Rai and is one of the t",
+    "rating": 4.8,
+    "reviews": 3323
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 7,
+  "fields": {
+    "category": 1,
+    "image": "https://cdn.destguides.com/files/store/itinerarystop/3802/background_image/webp_large_202112291737-7f87b59f558f5cb6e1236f11114b244f.webp",
+    "title": "Wat Mahathat",
+    "description": "Wat Mahathat, also known as the Temple of the Great Relic, is a royal temple located in Ayutthaya that was built in 1374. The royal temple served as the residence of the Supreme Patriarch of Buddhism. Royal ceremonies were also frequently hosted in the temple.  Wat Mahathat is a historic attraction",
+    "rating": 4.8,
+    "reviews": 3424
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 8,
+  "fields": {
+    "category": 1,
+    "image": "https://cdn.destguides.com/files/store/itinerarystop/3803/background_image/webp_large_202112291737-70db81c89d85661e588242a9d365f52b.webp",
+    "title": "Big Buddha Phuket",
+    "description": "The Big Buddha Phuket, officially called Mingmongkol Buddha, is a majestic Buddha in Phuket. The 148-feet tall white marble statue sits on top of the Nakkerd Hills. It is one of the most popular attractions in Phuket and the entire country.  Big Buddha was constructed in 2004, along with a smaller b",
+    "rating": 4.55,
+    "reviews": 4243
+  }
+},
+{
+  "model": "landmark.landmark",
+  "pk": 9,
+  "fields": {
+    "category": 2,
+    "image": "https://cdn.destguides.com/files/store/itinerarystop/3807/background_image/webp_large_202112291737-fb675b6e8ad8ca8b5958555b900fb044.webp",
+    "title": "Railay Beach",
+    "description": "Railay Beach is an exotic Thai paradise that is thought of as one of the natural landmarks of Thailand. Railay Beach is found between Ao Nang and Krabi. Due to its location between tall limestone cliffs, visitors must take a boat to access the beach.  This tranquil beach is the perfect place to rela",
+    "rating": 4.32,
+    "reviews": 442
+  }
+}
+]

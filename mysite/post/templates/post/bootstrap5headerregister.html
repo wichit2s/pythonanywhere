@@ -1,0 +1,37 @@
+<a href="#" data-bs-toggle="modal" data-bs-target="#registerModal" class="nav-link px-2 link-dark">ลงทะเบียน</a>
+<div class="modal fade" id="registerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">กรอกข้อมูลลงทะเบียน</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form class="form" action="/post/register/" method="post">
+        {% csrf_token %}
+        <div class="modal-body">
+          <div class="row mb-3">
+            <label class="col-sm-4 col-form-label" for="id_username">ชื่อเข้าใช้งาน</label>
+            <div class="col-sm-8">
+              <input id="id_username" class="form-control" type="text" name="username"/>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label class="col-sm-4 col-form-label" for="id_password1">รหัสผ่าน</label>
+            <div class="col-sm-8">
+              <input type="password" id="id_password1" class="form-control" name="password1"/>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label class="col-sm-4 col-form-label" for="id_password2">ยืนยันรหัสผ่าน</label>
+            <div class="col-sm-8">
+              <input type="password" id="id_password2" class="form-control" name="password2"/>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

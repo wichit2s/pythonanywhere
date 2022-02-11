@@ -1,0 +1,20 @@
+<div class="mb-6">
+    <form class="form" action="/post/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-group my-2">
+            <label class="form-label" for="id_image">ภาพ</label>
+            <input id="id_image" class="form-control" type="file" name="image"/>
+        </div>
+        <div class="form-group my-2">
+            <label class="form-label" for="id_title">หัวข้อ</label>
+            <input id="id_title" class="form-control" type="text" name="title"/>
+        </div>
+        <div class="form-group my-2">
+            <label class="form-label" for="id_text">ข้อความ</label>
+            <textarea id="id_text" class="form-control" name="text"></textarea>
+        </div>
+        <div class="col-12 my-2">
+            <button type="submit" class="btn btn-primary">Post</button>
+        </div>
+    </form>
+</div>

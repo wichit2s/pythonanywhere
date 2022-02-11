@@ -1,0 +1,21 @@
+{% extends 'landmark/base.html' %}
+
+{% block main %}
+<div class="container fluid text-center">
+  <h1>Landmark List</h1>
+  {% if landmark_list %}
+  {% for landmark in landmark_list %}
+  <div class="card my-2 py-2">
+    <img src="{{ landmark.image }}" class="img-fluid" alt="image"/>
+    <div class="card-body">
+      <a href="{{ landmark.get_absolute_url }}">{{ landmark.title }}</a> ({{landmark.title}})
+    </div>
+  </div>
+  {% endfor %}
+  {% else %}
+  <p>There are no landmark in our database.</p>
+  {% endif %}
+</div>
+
+{% include 'landmark/form.html' %}
+{% endblock %}
