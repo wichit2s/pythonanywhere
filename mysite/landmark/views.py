@@ -85,8 +85,12 @@ def register(request):
 
 def home(request):
     landmarks = Landmark.objects.all()
-    sam = landmarks[0]
-    phatam = landmarks[1]
+    sam = None
+    if len(landmarks) > 0:
+        sam = landmarks[0]
+    phatam = None
+    if len(landmarks) > 1:
+        phatam = landmarks[1]
     slides = [
         {"index": 0, "title": "title", "code":"", "subtitle": "subtitle"},
         {"index": 1, "title": "title", "subtitle": "subtitle"},
