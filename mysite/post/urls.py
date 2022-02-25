@@ -7,4 +7,5 @@ urlpatterns = [
     path('logout/', logout),
     path('register/', register),
     path('video/', video),
+    path('api/deletepost/<int:id>/', deletepost)
 ]

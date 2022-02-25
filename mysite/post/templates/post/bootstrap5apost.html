@@ -9,6 +9,10 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/EOAPMhaCtuw" frameborder="0" allowfullscreen></iframe>
             </div>
             -->
+            {% if user.is_authenticated and post.user == user %}
+            <a href="/post/api/deletepost/{{ post.id }}" class="btn btn-primary">ลบ</a>
+            {% endif %}
+            <span>{{ post.user.username }}</span>
         </div>
     </div>
 </div>

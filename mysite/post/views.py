@@ -1,25 +1,52 @@
 from django.contrib.auth import authenticate, login as auth_login
 from django.contrib.auth import logout as auth_logout
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AnonymousUser
 from django.shortcuts import render, redirect
 from .forms import *
 
 # Create your views here.
 def post(request):
     print(f'{request.method} post()')
+    point = None
     if request.method == 'POST':
+        if request.user.is_authenticated:
+            print(request.user.username)
+            point = Point.objects.filter(user=request.user).first()
+            if point:
+                point.point += 2
+                point.save()
+            else:
+                point = Point(user=request.user, point=2)
+                point.save()
+        else:
+            print('ไม่ได้ login ก่อน post')
         form = PostForm(request.POST, request.FILES)
         #print(request.POST)
         #print(form.is_valid())
         if form.is_valid():
+            form.instance.user = request.user
             form.save()
     else:
         form = PostForm()
     posts = Post.objects.all()
+    point = None
+    if request.user.is_authenticated:
+        point = request.user.point_set.first()
     return render(request, 'post/bootstrap5post.html', {
         'posts': posts,
-        'form': form
+        'form': form,
+        'point': point
     })
+
+def deletepost(request, id):
+    print(f' โดนสั่งลบ post id = {id}')
+    if not request.user.is_authenticated:
+        print(f'ผู้ใช้ไม่ได้ login')
+    else:
+        post = Post.objects.filter(pk=id).first()
+        if post and post.user == request.user:
+            post.delete()
+    return redirect('/post/')
 
 def login(request):
     if request.method == 'POST':
