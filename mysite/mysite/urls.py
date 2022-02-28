@@ -28,3 +28,4 @@ urlpatterns = [
 #urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static('media/', document_root=os.path.join(settings.BASE_DIR, 'media'))
 urlpatterns += static('lib/', document_root=os.path.join(settings.BASE_DIR, 'lib'))
+urlpatterns += static('static/', document_root=os.path.join(settings.BASE_DIR, 'static'))
